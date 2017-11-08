@@ -10,7 +10,7 @@ maybe will fix it one day..
 
 KNOWN BUGS: 
 - Toast overflow (showing way too many times) - maybe other way to show
-- Not playing music if already playing or played music and not closed before (tho theres info on action bar)
+- Not restarting play if already playing or played music and not closed before (tho theres info on action bar)
 - Sometimes hang on restart device
 - Abandoned back process if hang
 
