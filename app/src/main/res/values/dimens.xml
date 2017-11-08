@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+
+
+    <dimen name="text_size">25sp</dimen>
+    <dimen name="text_size_big">42sp</dimen>
+    <dimen name="text_size_huge">84sp</dimen>
+    <dimen name="song_name_size">20sp</dimen>
+
+    <dimen name="standard_icon_size">64dp</dimen>
+    <dimen name="standard_text_minHeight">40dp</dimen>
+</resources>

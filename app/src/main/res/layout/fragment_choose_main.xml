@@ -1,0 +1,149 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ala.musicalarm.ChooseDateFragment"
+
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:layout_weight="8"
+
+    >
+
+    <LinearLayout
+       android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+      >
+
+    <TextView
+     android:id="@+id/mainTitle"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+
+     android:text="@string/Menu_Home"
+        android:minHeight="@dimen/standard_text_minHeight"
+     android:textSize="@dimen/text_size"
+        android:layout_weight="1"
+     />
+
+        <DigitalClock
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/digitalClock"
+            android:textSize="@dimen/text_size_huge"
+            android:minHeight="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="3"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="4"
+
+            >
+
+            <ImageButton
+                android:id="@+id/playButton"
+                android:layout_width="@dimen/standard_icon_size"
+                android:layout_height="@dimen/standard_icon_size"
+                android:src="@drawable/play_selector"
+                android:onClick="playPauseButton"
+                android:scaleType="fitCenter"
+                android:background="@color/inv"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                />
+
+            <ImageButton
+                android:id="@+id/nextButton"
+                android:layout_width="@dimen/standard_icon_size"
+                android:layout_height="@dimen/standard_icon_size"
+                android:src="@drawable/next_selector"
+                android:onClick="nextButton"
+                android:scaleType="fitCenter"
+                android:background="@color/inv"
+                android:layout_margin="10dp"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:id="@+id/shuffleButton"
+                android:layout_width="@dimen/standard_icon_size"
+                android:layout_height="@dimen/standard_icon_size"
+                android:src="@drawable/random_selector"
+                android:scaleType="fitCenter"
+                android:background="@color/inv"
+                android:onClick="playRandomButton"
+                android:layout_margin="10dp"
+                android:adjustViewBounds="false"
+                android:layout_weight="1"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/colorMenu"
+            android:onClick="snoozeButton"
+            android:id="@+id/snoozeButton"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Sleep"
+                android:id="@+id/Snooze"
+                android:textSize="@dimen/text_size_big"
+                android:layout_gravity="center"
+                android:textColor="@color/text_white"
+
+
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/warning"
+            android:onClick="exitButton"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/Turn_off"
+                android:id="@+id/turnOff"
+                android:textSize="@dimen/text_size_big"
+                android:layout_gravity="center"
+                android:textColor="@color/text_white"
+                />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/standard_icon_size"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>

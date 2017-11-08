@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Music Alarm</string>
+
+
+    <string name="Menu_Home">Alarm</string>
+    <string name="Menu_Date">Choose dates</string>
+    <string name="Menu_Song">Your playback</string>
+
+    <string name="Dates_title">Dates</string>
+    <string name="Set_alarm">Set alarm</string>
+    <string name="Hour_Label">Choose hour</string>
+    <string name="switchRepeatEachWeek">Repeat each week  </string>
+    <string name="switchVibrate">Use vibration</string>
+    <string name="switchShuffle">Shuffle playback</string>
+    <string name="volumeSet">Set volume</string>
+    <string name="otherSet">Set misc</string>
+    <string name="Time">Time:  </string>
+    <string name="Day">Day:  </string>
+<string name="DeleteAll">Delete whole base</string>
+    <string name="Cancel">Cancel</string>
+    <string name="NowPlaying">Now Playing</string>
+
+    <string name="Monday">Mon</string>
+    <string name="Tuesday">Tue</string>
+    <string name="Wednesday">Wed</string>
+    <string name="Thursday">Thu</string>
+    <string name="Friday">Fri</string>
+    <string name="Saturday">Sat</string>
+    <string name="Sunday">Sun</string>
+
+    <string name="Sleep">Snooze!</string>
+
+
+    <string name="Turn_off">Turn off!</string>
+
+
+</resources>
