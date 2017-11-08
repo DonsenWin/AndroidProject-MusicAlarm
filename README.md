@@ -16,7 +16,7 @@ KNOWN BUGS:
 - Not playing music if already playing music and not closed before (tho theres info on action bar)
 - Sometimes hang on restart device
 - Abandoned back process if hang
-- Ugly interface XD
+
 
 
 TODO:
